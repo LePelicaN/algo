@@ -47,3 +47,20 @@ No negative cycles
 * https://brilliant.org/wiki/floyd-warshall-algorithm/
 * https://www.geeksforgeeks.org/floyd-warshall-algorithm-dp-16/
 
+# A*
+
+## One line presentation
+Dijkstra algorithm but chosing the next neighbor to work one based on an heuristic.
+
+## Complexity
+Depends of the heuristic
+O(b^d) with b as the branching factor and d as the depth of the solution
+
+## Limitation
+Potential huge space complexity
+
+## Sources
+* https://en.wikipedia.org/wiki/A*_search_algorithm
+* https://brilliant.org/wiki/a-star-search/
+* http://theory.stanford.edu/~amitp/GameProgramming/AStarComparison.html
+
