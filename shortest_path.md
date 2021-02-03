@@ -64,3 +64,17 @@ Potential huge space complexity
 * https://brilliant.org/wiki/a-star-search/
 * http://theory.stanford.edu/~amitp/GameProgramming/AStarComparison.html
 
+# Johnson
+
+## One line presentation
+Use Bellman-Ford to compute the distance from a new vertex, use this data to create a graph with no negative weight and run Dijkstra on all vectices.
+
+## Complexity
+O(|V|^2.log|V| + |V||E|)
+
+## Limitation
+No negative cycles
+
+## Sources
+* https://en.wikipedia.org/wiki/Johnson%27s_algorithm
+* https://brilliant.org/wiki/johnsons-algorithm/
